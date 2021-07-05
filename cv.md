@@ -31,4 +31,12 @@ return "Odd";
 }
 ```
 
+## Education
+
+* HTML, CSS, JavaScript:
+  * [ITVDN.com](https://itvdn.com/ru/specialities/frontend-developer)
+  * [Code Basics](https://ru.code-basics.com/)
+  * [Hexlet](https://ru.hexlet.io)
+
+
 
