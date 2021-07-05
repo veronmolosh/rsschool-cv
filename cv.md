@@ -38,5 +38,14 @@ return "Odd";
   * [Code Basics](https://ru.code-basics.com/)
   * [Hexlet](https://ru.hexlet.io)
 
+## Languages
+
+* Belarusian (native)
+* Russian (native)
+* English (A1, trying to improve the level)
+
+
+
+
 
 
