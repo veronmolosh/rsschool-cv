@@ -19,6 +19,16 @@ Extremely motivated to constantly develop my skills and grow professionally.
 * Markdown
 ***
 
+## Sample code
 
+```
+function even_or_odd(number) {
+  if( number % 2 == 0){
+    return "Even";}
+  else {
+return "Odd";
+  }
+}
+```
 
 
