@@ -43,9 +43,6 @@ return "Odd";
 * Belarusian (native)
 * Russian (native)
 * English (A1, trying to improve the level)
+***
 
-
-
-
-
-
+[GitHub](https://github.com/veronmolosh)
