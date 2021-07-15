@@ -1,4 +1,6 @@
-* {
+*,
+::after,
+::before {
 	box-sizing: border-box;
 }
 
@@ -22,7 +24,7 @@ h5 {
 body {
 	color: #242323;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: normal;
 }
 
