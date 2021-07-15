@@ -20,14 +20,18 @@ h5 {
 }
 
 body {
-	max-width: 1620px;
-	background-color: #bdddbd;
-	color: #6a6a6a;
+	color: #242323;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: normal;
-	padding: 50px;
+}
+
+.wrapper {
+	max-width: 1440px;
+	background-color: #e3f5e3;
+	border: 5px solid #6a6a6a;
 	margin: 0 auto;
+	padding: 50px;
 }
 
 hr {
@@ -36,8 +40,8 @@ hr {
 
 .container {
 	display: flex;
-	/* height: 100%; */
-	margin: 20px 50px;
+	justify-content: center;
+	padding: 0px 50px;
 }
 
 .name {
@@ -48,9 +52,10 @@ hr {
 }
 
 .photo {
+	align-self: center;
 	background-image: url("./assets/img/my_photo.jpg");
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	flex-shrink: 0;
 	border-radius: 50%;
 	overflow: hidden;
@@ -60,18 +65,23 @@ hr {
 }
 
 .contacts {
-	margin-left: 100px;
 	list-style-type: none;
+	flex-basis: 60%;
 }
 
 .list-of-contact {
 	list-style-type: none;
-	padding-left: 0;
+	padding-top: 20px;
+}
+
+.list-of-contact > li {
+	margin-bottom: 20px;
 }
 
 .telephone-number {
 	text-decoration: none;
 	color: #6a6a6a;
+	padding-bottom: 20px;
 }
 
 .mail {
@@ -83,17 +93,43 @@ hr {
 	list-style-type: disc;
 }
 
+.skills {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.sample-code {
+	background-color: rgb(173, 206, 207);
+	border-radius: 10px;
+	text-align: left;
+	padding: 0 50px;
+}
+
+code {
+	font-family: "Courier", monospace;
+}
+
 .experiense {
+	display: flex;
+	justify-content: center;
 	padding: 30px 0;
 }
 
-pre {
-	display: block;
-	font-family: "Courier", monospace;
+.my-experiense {
+	padding-left: 100px;
+}
+
+.my-experiense > h2 {
+	text-align: left;
 }
 
 .languages {
 	margin-bottom: 150px;
+}
+
+.lang > ul {
+	margin-bottom: 50px;
 }
 
 footer {
